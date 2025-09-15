@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Software Engineers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 70%;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e6ffe6;
+        }
+    </style>
+</head>
+<body>
+<h1>List of Software Engineers</h1>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Tech Stack</th>
+    </tr>
+    <tr>
+        <td>Musa</td>
+        <td>Java, Spring Boot, React</td>
+    </tr>
+    <tr>
+        <td>Alice</td>
+        <td>Python, Django</td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Go, Kubernetes</td>
+    </tr>
+    <tr>
+        <td>Sophia</td>
+        <td>JavaScript, Angular</td>
+    </tr>
+</table>
+</body>
+</html>
